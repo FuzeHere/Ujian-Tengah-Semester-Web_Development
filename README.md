@@ -4,7 +4,7 @@ Sistem manajemen laundry sederhana dengan fitur form pelanggan dan tabel data.
 
 ---
 
-[View Online](https://twilight-user.github.io/UTS/)
+[Lihat Online Di sini!](https://fuzehere.github.io/Ujian-Tengah-Semester-Web_Development/)
 
 ## Preview
 
