@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+  font-size: medium;
+}
+
+body {
+  background-color: rgb(169, 150, 109);
+}
+
+.login {
+  padding: 50px;
+  font-weight: bold;
+  font-size: larger;
+  background-color: burlywood;
+  width: 300px;
+  display: flex;
+  justify-self: center;
+  margin-top: 30vh;
+  border-radius: 10%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

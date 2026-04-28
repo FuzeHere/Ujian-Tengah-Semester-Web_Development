@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIM Laundry</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="style/logo.jpg" alt="logo" />
+      <a href="landingPage.html">Landing Page</a>
+      <a href="#">Cucian pelanggan</a>
+      <a href="index.html" class="keluar">Keluar</a>
+    </div>
+    <div class="header">
+      <h1>Cucian Pelanggan</h1>
+    </div>
+    <div class="clearfix">
+      <div class="form-container">
+        <h2>Form Pelanggan Laundry</h2>
+
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama Pelanggan</label>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Masukkan nama pelanggan"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="jam">Jam Masuk</label>
+            <input type="time" id="jam" name="jam" required />
+          </div>
+
+          <div class="form-group">
+            <label for="status">Status</label>
+            <select id="status" name="status" required>
+              <option value="">-- Pilih Status --</option>
+              <option value="Belum Dicuci">Belum Dicuci</option>
+              <option value="Sedang Dicuci">Sedang Dicuci</option>
+              <option value="Selesai">Selesai</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="biaya">Biaya</label>
+            <input
+              type="number"
+              id="biaya"
+              name="biaya"
+              placeholder="Masukkan biaya"
+              required
+            />
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="btn-submit">Simpan</button>
+            <button type="reset" class="btn-reset">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="table-container">
+        <h2>Data Pelanggan</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Pelanggan</th>
+              <th>Jam Masuk</th>
+              <th>Status</th>
+              <th>Biaya</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>08:30</td>
+              <td>Belum Dicuci</td>
+              <td>15000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Siti</td>
+              <td>09:15</td>
+              <td>Sedang Dicuci</td>
+              <td>20000</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Rahma</td>
+              <td>10:00</td>
+              <td>Selesai</td>
+              <td>25000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
