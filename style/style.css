@@ -135,6 +135,10 @@
   margin-left: 30px;
 }
 
+.card:hover {
+  transform: scale(1.02);
+}
+
 .table-container h2 {
   text-align: center;
   margin-bottom: 20px;
